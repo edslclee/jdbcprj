@@ -26,7 +26,7 @@ public class select {
 			System.out.println(conn.isClosed()?"접속종료":"접속중");// 접속중(false), 접속종료(true)
 			 
 			// 5. SQL
-			String sql = "SELECT * FROM NOTICE";
+			String sql = "SELECT * FROM NOTICE ORDER BY ID DESC";
 			Statement st = conn.createStatement();
 			ResultSet rs = null;
 			rs = st.executeQuery(sql);
