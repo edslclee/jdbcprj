@@ -29,6 +29,7 @@ public class insert {
 		String title = "BIG Data 최신 정보";
 		String write_id = "edslc";
 		String content = "BIG Data의 개요, 구축방법, 운영 등에 대한 소개";
+		
 		String sql = "INSERT INTO NOTICE VALUES(?,?,?,?,SYSDATE,0,?)";
 		    
 		try {

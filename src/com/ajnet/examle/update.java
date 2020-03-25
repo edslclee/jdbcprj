@@ -28,6 +28,7 @@ public class update {
 		int id = 4;
 		String title = "BIG Data 최신 정보";
 		String content = "BIG Data의 개요, 구축방법, 운영 등에 대한 소개";
+		
 		String sql = "UPDATE NOTICE SET TITLE=?, CONTENT=? WHERE ID=?";
 		    
 		try {
